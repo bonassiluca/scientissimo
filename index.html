@@ -1,0 +1,60 @@
+<html lang="it">    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Homepage</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="loader">
+    <div class="contentt">
+      <div class="bars">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+
+      <div class="bars">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </div>
+    </div>
+        <nav class="navbar">
+            <a class="logo">SCIENTISSIMO</a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="scientissimo.html">Cos'è Scientissimo?</a></li>
+                    <li><a href="episodio1.html">Episodio 1</a></li>
+                    <li><a href="episodio2.html">Episodio 2</a></li>
+                    <li><a href="episodio3.html">Episodio 3</a></li>
+                    <li><a href="episodio4.html">Episodio 4</a></li>
+                    <li><a href="episodio5.html">Episodio 5</a></li>
+                    <li><a href="contattaci.html">Contattaci</a></li>
+                </ul>
+            </div>
+            <div class="menu-hamburger">MENU</div>
+        </nav>
+    <script src="main.js"></script>
+</body>
+    <script>
+        const menuHamburger = document.querySelector(".menu-hamburger")
+        const navLinks = document.querySelector(".nav-links")
+ 
+        menuHamburger.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</html>

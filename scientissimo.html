@@ -1,0 +1,44 @@
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="homepage.html" class="logo">SCIENTISSIMO</a>
+        <div class="nav-links">
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="scientissimo.html">Cos'è Scientissimo?</a></li>
+                <li><a href="episodio1.html">Episodio 1</a></li>
+                <li><a href="#">Episodio 2</a></li>
+                <li><a href="#">Episodio 3</a></li>
+                <li><a href="#">Episodio 4</a></li>
+                <li><a href="#">Episodio 5</a></li>
+                <li><a href="contattaci.html">Contattaci</a></li>
+            </ul>
+        </div>
+        <div class="menu-hamburger">MENU</div>
+    </nav>
+    <p class="paragraph">La scienza non nasce solo da formule e laboratori, ma da domande, errori, intuizioni inattese e dilemmi morali. <br>
+    Il nostro podcast esplora le origini delle scoperte scientifiche, raccontando come idee rivoluzionarie prendono forma spesso per caso, per necessità o per serendipità. <br>
+    In ogni puntata attraversiamo discipline diverse per interrogarci su come nasce la conoscenza, quali scelte etiche accompagnano il progresso e quali domande rimangono ancora aperte. <br> 
+    Analizziamo la scienza non solo come risultato, ma come processo umano, fatto di dubbi, tentativi e conseguenze. <br>
+    Questo è uno spazio per chi non cerca risposte semplici, ma ama pensare in profondità, tornare alle cause delle cose e guardare la scienza come uno strumento per comprendere il mondo, e noi stessi. <br>
+    <br>
+    <span style="font-size: 30px; font-weight: 500;">Rerum cognoscere causas</span>
+    <br>
+    “Conoscere le cause delle cose” (Virgilio)</p>
+</body>
+    <script>
+        const menuHamburger = document.querySelector(".menu-hamburger")
+        const navLinks = document.querySelector(".nav-links")
+ 
+        menuHamburger.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</html>

@@ -1,0 +1,108 @@
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Contattaci</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+</head>
+<body>
+    <div id="loader">
+    <div class="contentt">
+      <div class="bars">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+
+      <div class="bars">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </div>
+    </div>
+        <nav class="navbar">
+            <a href="index.html" class="logo">SCIENTISSIMO</a>
+            <div class="nav-links">
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="scientissimo.html">Cos'è Scientissimo?</a></li>
+                    <li><a href="episodio1.html">Episodio 1</a></li>
+                    <li><a href="#">Episodio 2</a></li>
+                    <li><a href="#">Episodio 3</a></li>
+                    <li><a href="#">Episodio 4</a></li>
+                    <li><a href="#">Episodio 5</a></li>
+                    <li><a href="contattaci.html">Contattaci</a></li>
+                </ul>
+            </div>
+            <div class="menu-hamburger">MENU</div>
+        </nav>
+    <main class="main">
+        <div class="container">
+            <div class="content">
+                <div class="left-side">
+                    <div class="details">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="topic">Indirizzo</div>
+                        <div class="text-one">Via Alberico da Rosciate, 21/a</div>
+                        <div class="text-two">Bergamo (BG)</div>
+                    </div>
+                    <div class="details">
+                        <i class="fas fa-phone-alt"></i>
+                        <div class="topic">Telefono</div>
+                        <div class="text-one">+39 392 404 1253</div>
+                        <div class="text-two">+39 3434 5678</div>
+                        <div class="text-one">+39 9893 5647</div>
+                        <div class="text-two">+39 3434 5678</div>
+                    </div>
+                    <div class="details">
+                        <i class="fas fa-envelope"></i>
+                        <div class="topic">Contatti</div>
+                        <div class="text-one">@scientissimopodcast</div>
+                        <div class="text-two">info.scientissimo@gmail.com</div>
+                    </div>
+                </div>
+                <div class="right-side">
+                    <div class="topic-text">Inviaci un messaggio!</div>
+                    <p>Se dovessi avere qualsiasi domanda o volessi contattarci per qualunque motivo, puoi mandare un messaggio qui. È un nostro piacere aiutarti.</p>
+                <form action="#">
+                    <div class="input-box">
+                        <input type="text" placeholder="Inserisci il tuo nome">
+                    </div>
+                    <div class="input-box">
+                        <input type="text" placeholder="Inserisci la tua email">
+                    </div>
+                    <div class="input-box message-box">
+                        <textarea></textarea>
+                    </div>
+                    <div class="button">
+                        <input type="button" value="Invia Ora">
+                    </div>
+                </form>
+                </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+    <script>
+        const menuHamburger = document.querySelector(".menu-hamburger")
+        const navLinks = document.querySelector(".nav-links")
+ 
+        menuHamburger.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</html>

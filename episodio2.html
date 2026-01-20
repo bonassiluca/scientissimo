@@ -1,0 +1,66 @@
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="loader">
+    <div class="contentt">
+      <div class="bars">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+
+      <div class="bars">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </div>
+    </div>
+        <nav class="navbar">
+            <a href="index.html" class="logo">SCIENTISSIMO</a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="scientissimo.html">Cos'è Scientissimo?</a></li>
+                    <li><a href="episodio1.html">Episodio 1</a></li>
+                    <li><a href="episodio2.html">Episodio 2</a></li>
+                    <li><a href="episodio3.html">Episodio 3</a></li>
+                    <li><a href="episodio4.html">Episodio 4</a></li>
+                    <li><a href="episodio5.html">Episodio 5</a></li>
+                    <li><a href="contattaci.html">Contattaci</a></li>
+                </ul>
+            </div>
+            <div class="menu-hamburger">MENU</div>
+        </nav>
+        <div class="video">
+        <iframe src="https://www.youtube.com/embed/-fpaDNPeQik?si=OZHk0o9xNCyj0lke" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="description">
+            <p><span style="font-size: 25px; font-weight: 600;">Episodio 2</span><br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum suscipit libero, at pretium lorem hendrerit eget. Morbi fermentum, quam at lacinia vestibulum, erat nibh tempor dui, at consectetur ipsum sem sed metus. Etiam lacinia, enim nec tempor consequat, lorem leo congue lectus, vitae consectetur nulla dui eget dolor. Duis ultricies quam sit amet nulla hendrerit, sit amet condimentum erat vehicula. Donec commodo ornare risus ornare varius. Quisque id dictum ante. Phasellus eget mauris imperdiet, blandit justo at, viverra eros.</p>
+        </div>
+    <script src="main.js"></script>
+    </body>
+    <script>
+        const menuHamburger = document.querySelector(".menu-hamburger")
+        const navLinks = document.querySelector(".nav-links")
+ 
+        menuHamburger.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</html>
