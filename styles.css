@@ -44,11 +44,11 @@ iframe {
 
 .biblio {
     display: flex;
-    margin-top: 40px;
-    height: 85vh;
-    width: 80vw;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin-top: 30px;
+    height: 80;
+    width: 84vw;
+    margin-left: 8vw;
+    margin-right: 8vw;
     background-color: white;
     text-align: center;
     justify-items: center;
