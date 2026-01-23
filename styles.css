@@ -61,6 +61,18 @@ iframe {
     padding: 20px 30px 30px 30px;
 }
 
+.biblio {
+    overflow: hidden;
+}
+
+.biblio-content {
+    height: calc(100% - 60px);
+}
+
+.biblio-col {
+    max-height: 100%;
+}
+
 .biblio-title {
     position: absolute;
     top: 15px;
