@@ -3,12 +3,26 @@
     src: url(Poppins-Regular.ttf);
 }
 
+@font-face {
+    font-family: 'Micro';
+    src: url(Microgram\ DB\ Regular.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+}
+
+.nomi {
+    font-family: 'Micro';
+    color: white;
+    margin-top: 35vh;
+    font-size: 16px;
+    margin-right: 5vw;
+    text-align: right;
 }
 
 .paragraph {
