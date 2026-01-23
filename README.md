@@ -1,5 +1,5 @@
 # SCIENTISSIMO PODCAST
-<h2> Un podcast di Bonassi Luca, Calvi di Bergolo Guido, Casiraghi Beatrice e Caslini Simone. </h2><br>
+<h2> Un podcast di Bonassi Luca, Calvi di Bergolo Guido, Casiraghi Beatrice e Caslini Simone. </h2>
 Sito relizzato con Visual Studio Code e GitHub. <br>
 Per accedere al sito digitare: bonassiluca.github.io/scientissimo <br>
 All'interno del sito, per accedere alle varia pagine, cliccare il menu a comparsa presente in alto a destra tramite la scritta "MENU". <br>
